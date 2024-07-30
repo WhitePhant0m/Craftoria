@@ -4,7 +4,6 @@ let deprecatedItems = {
 
 let deprecatedMods = {
 	// Mod ID: {Mod ID of replacement, message}
-	ironchest: { newMod: 'expandedstorage', message: 'You can convert the chests by placing them in a crafting table.' },
 };
 
 RecipeViewerEvents.removeEntries('item', (event) => {
